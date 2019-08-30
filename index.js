@@ -2,7 +2,7 @@
 
 const visit = require("unist-util-visit");
 
-const titlePrefix = ":title="
+const titlePrefix = ":"
 
 module.exports = function gatsbyRemarkCodeTitles(_ref, pluginOptions) {
   const markdownAST = _ref.markdownAST;
